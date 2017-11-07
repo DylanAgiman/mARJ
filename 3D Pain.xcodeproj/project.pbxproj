@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		998F70131FB17D5F00E24525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F70121FB17D5F00E24525 /* AppDelegate.swift */; };
+		998F70151FB17D5F00E24525 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F70141FB17D5F00E24525 /* art.scnassets */; };
+		998F70171FB17D5F00E24525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F70161FB17D5F00E24525 /* ViewController.swift */; };
+		998F701A1FB17D5F00E24525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998F70181FB17D5F00E24525 /* Main.storyboard */; };
+		998F701C1FB17D5F00E24525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F701B1FB17D5F00E24525 /* Assets.xcassets */; };
+		998F701F1FB17D5F00E24525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998F701D1FB17D5F00E24525 /* LaunchScreen.storyboard */; };
+		998F702A1FB17D6000E24525 /* _D_PainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F70291FB17D6000E24525 /* _D_PainTests.swift */; };
+		998F70351FB17D6000E24525 /* _D_PainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F70341FB17D6000E24525 /* _D_PainUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		998F70261FB17D6000E24525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 998F70071FB17D5F00E24525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998F700E1FB17D5F00E24525;
+			remoteInfo = "3D Pain";
+		};
+		998F70311FB17D6000E24525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 998F70071FB17D5F00E24525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 998F700E1FB17D5F00E24525;
+			remoteInfo = "3D Pain";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		998F700F1FB17D5F00E24525 /* 3D Pain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Pain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998F70121FB17D5F00E24525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		998F70141FB17D5F00E24525 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		998F70161FB17D5F00E24525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		998F70191FB17D5F00E24525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		998F701B1FB17D5F00E24525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		998F701E1FB17D5F00E24525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		998F70201FB17D5F00E24525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998F70251FB17D6000E24525 /* 3D PainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D PainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998F70291FB17D6000E24525 /* _D_PainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_PainTests.swift; sourceTree = "<group>"; };
+		998F702B1FB17D6000E24525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998F70301FB17D6000E24525 /* 3D PainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D PainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998F70341FB17D6000E24525 /* _D_PainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_PainUITests.swift; sourceTree = "<group>"; };
+		998F70361FB17D6000E24525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		998F700C1FB17D5F00E24525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F70221FB17D6000E24525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F702D1FB17D6000E24525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998F70061FB17D5F00E24525 = {
+			isa = PBXGroup;
+			children = (
+				998F70111FB17D5F00E24525 /* 3D Pain */,
+				998F70281FB17D6000E24525 /* 3D PainTests */,
+				998F70331FB17D6000E24525 /* 3D PainUITests */,
+				998F70101FB17D5F00E24525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		998F70101FB17D5F00E24525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998F700F1FB17D5F00E24525 /* 3D Pain.app */,
+				998F70251FB17D6000E24525 /* 3D PainTests.xctest */,
+				998F70301FB17D6000E24525 /* 3D PainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		998F70111FB17D5F00E24525 /* 3D Pain */ = {
+			isa = PBXGroup;
+			children = (
+				998F70121FB17D5F00E24525 /* AppDelegate.swift */,
+				998F70141FB17D5F00E24525 /* art.scnassets */,
+				998F70161FB17D5F00E24525 /* ViewController.swift */,
+				998F70181FB17D5F00E24525 /* Main.storyboard */,
+				998F701B1FB17D5F00E24525 /* Assets.xcassets */,
+				998F701D1FB17D5F00E24525 /* LaunchScreen.storyboard */,
+				998F70201FB17D5F00E24525 /* Info.plist */,
+			);
+			path = "3D Pain";
+			sourceTree = "<group>";
+		};
+		998F70281FB17D6000E24525 /* 3D PainTests */ = {
+			isa = PBXGroup;
+			children = (
+				998F70291FB17D6000E24525 /* _D_PainTests.swift */,
+				998F702B1FB17D6000E24525 /* Info.plist */,
+			);
+			path = "3D PainTests";
+			sourceTree = "<group>";
+		};
+		998F70331FB17D6000E24525 /* 3D PainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				998F70341FB17D6000E24525 /* _D_PainUITests.swift */,
+				998F70361FB17D6000E24525 /* Info.plist */,
+			);
+			path = "3D PainUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		998F700E1FB17D5F00E24525 /* 3D Pain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998F70391FB17D6000E24525 /* Build configuration list for PBXNativeTarget "3D Pain" */;
+			buildPhases = (
+				998F700B1FB17D5F00E24525 /* Sources */,
+				998F700C1FB17D5F00E24525 /* Frameworks */,
+				998F700D1FB17D5F00E24525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Pain";
+			productName = "3D Pain";
+			productReference = 998F700F1FB17D5F00E24525 /* 3D Pain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		998F70241FB17D6000E24525 /* 3D PainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998F703C1FB17D6000E24525 /* Build configuration list for PBXNativeTarget "3D PainTests" */;
+			buildPhases = (
+				998F70211FB17D6000E24525 /* Sources */,
+				998F70221FB17D6000E24525 /* Frameworks */,
+				998F70231FB17D6000E24525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				998F70271FB17D6000E24525 /* PBXTargetDependency */,
+			);
+			name = "3D PainTests";
+			productName = "3D PainTests";
+			productReference = 998F70251FB17D6000E24525 /* 3D PainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		998F702F1FB17D6000E24525 /* 3D PainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998F703F1FB17D6000E24525 /* Build configuration list for PBXNativeTarget "3D PainUITests" */;
+			buildPhases = (
+				998F702C1FB17D6000E24525 /* Sources */,
+				998F702D1FB17D6000E24525 /* Frameworks */,
+				998F702E1FB17D6000E24525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				998F70321FB17D6000E24525 /* PBXTargetDependency */,
+			);
+			name = "3D PainUITests";
+			productName = "3D PainUITests";
+			productReference = 998F70301FB17D6000E24525 /* 3D PainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998F70071FB17D5F00E24525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Priyanka Saba";
+				TargetAttributes = {
+					998F700E1FB17D5F00E24525 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					998F70241FB17D6000E24525 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 998F700E1FB17D5F00E24525;
+					};
+					998F702F1FB17D6000E24525 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 998F700E1FB17D5F00E24525;
+					};
+				};
+			};
+			buildConfigurationList = 998F700A1FB17D5F00E24525 /* Build configuration list for PBXProject "3D Pain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 998F70061FB17D5F00E24525;
+			productRefGroup = 998F70101FB17D5F00E24525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				998F700E1FB17D5F00E24525 /* 3D Pain */,
+				998F70241FB17D6000E24525 /* 3D PainTests */,
+				998F702F1FB17D6000E24525 /* 3D PainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998F700D1FB17D5F00E24525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F70151FB17D5F00E24525 /* art.scnassets in Resources */,
+				998F701F1FB17D5F00E24525 /* LaunchScreen.storyboard in Resources */,
+				998F701C1FB17D5F00E24525 /* Assets.xcassets in Resources */,
+				998F701A1FB17D5F00E24525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F70231FB17D6000E24525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F702E1FB17D6000E24525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		998F700B1FB17D5F00E24525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F70171FB17D5F00E24525 /* ViewController.swift in Sources */,
+				998F70131FB17D5F00E24525 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F70211FB17D6000E24525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F702A1FB17D6000E24525 /* _D_PainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998F702C1FB17D6000E24525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F70351FB17D6000E24525 /* _D_PainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		998F70271FB17D6000E24525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 998F700E1FB17D5F00E24525 /* 3D Pain */;
+			targetProxy = 998F70261FB17D6000E24525 /* PBXContainerItemProxy */;
+		};
+		998F70321FB17D6000E24525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 998F700E1FB17D5F00E24525 /* 3D Pain */;
+			targetProxy = 998F70311FB17D6000E24525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		998F70181FB17D5F00E24525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998F70191FB17D5F00E24525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		998F701D1FB17D5F00E24525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998F701E1FB17D5F00E24525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		998F70371FB17D6000E24525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		998F70381FB17D6000E24525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		998F703A1FB17D6000E24525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "3D Pain/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MedARAppJam.-D-Pain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		998F703B1FB17D6000E24525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "3D Pain/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MedARAppJam.-D-Pain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		998F703D1FB17D6000E24525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "3D PainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MedARAppJam.-D-PainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Pain.app/3D Pain";
+			};
+			name = Debug;
+		};
+		998F703E1FB17D6000E24525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "3D PainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MedARAppJam.-D-PainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Pain.app/3D Pain";
+			};
+			name = Release;
+		};
+		998F70401FB17D6000E24525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "3D PainUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MedARAppJam.-D-PainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3D Pain";
+			};
+			name = Debug;
+		};
+		998F70411FB17D6000E24525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "3D PainUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MedARAppJam.-D-PainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "3D Pain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		998F700A1FB17D5F00E24525 /* Build configuration list for PBXProject "3D Pain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F70371FB17D6000E24525 /* Debug */,
+				998F70381FB17D6000E24525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998F70391FB17D6000E24525 /* Build configuration list for PBXNativeTarget "3D Pain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F703A1FB17D6000E24525 /* Debug */,
+				998F703B1FB17D6000E24525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998F703C1FB17D6000E24525 /* Build configuration list for PBXNativeTarget "3D PainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F703D1FB17D6000E24525 /* Debug */,
+				998F703E1FB17D6000E24525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998F703F1FB17D6000E24525 /* Build configuration list for PBXNativeTarget "3D PainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F70401FB17D6000E24525 /* Debug */,
+				998F70411FB17D6000E24525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 998F70071FB17D5F00E24525 /* Project object */;
+}
