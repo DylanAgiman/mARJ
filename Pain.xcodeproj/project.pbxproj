@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6DE8691FB3C6D0006D1755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE8681FB3C6D0006D1755 /* AppDelegate.swift */; };
+		ED6DE86B1FB3C6D0006D1755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE86A1FB3C6D0006D1755 /* ViewController.swift */; };
+		ED6DE86E1FB3C6D0006D1755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6DE86C1FB3C6D0006D1755 /* Main.storyboard */; };
+		ED6DE8701FB3C6D0006D1755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6DE86F1FB3C6D0006D1755 /* Assets.xcassets */; };
+		ED6DE8731FB3C6D0006D1755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6DE8711FB3C6D0006D1755 /* LaunchScreen.storyboard */; };
+		ED6DE87E1FB3C6D0006D1755 /* PainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE87D1FB3C6D0006D1755 /* PainTests.swift */; };
+		ED6DE8891FB3C6D0006D1755 /* PainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE8881FB3C6D0006D1755 /* PainUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6DE87A1FB3C6D0006D1755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6DE85D1FB3C6D0006D1755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6DE8641FB3C6D0006D1755;
+			remoteInfo = Pain;
+		};
+		ED6DE8851FB3C6D0006D1755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6DE85D1FB3C6D0006D1755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6DE8641FB3C6D0006D1755;
+			remoteInfo = Pain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED6DE8651FB3C6D0006D1755 /* Pain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6DE8681FB3C6D0006D1755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED6DE86A1FB3C6D0006D1755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED6DE86D1FB3C6D0006D1755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED6DE86F1FB3C6D0006D1755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6DE8721FB3C6D0006D1755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED6DE8741FB3C6D0006D1755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6DE8791FB3C6D0006D1755 /* PainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6DE87D1FB3C6D0006D1755 /* PainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainTests.swift; sourceTree = "<group>"; };
+		ED6DE87F1FB3C6D0006D1755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6DE8841FB3C6D0006D1755 /* PainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6DE8881FB3C6D0006D1755 /* PainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainUITests.swift; sourceTree = "<group>"; };
+		ED6DE88A1FB3C6D0006D1755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6DE8621FB3C6D0006D1755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6DE8761FB3C6D0006D1755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6DE8811FB3C6D0006D1755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED6DE85C1FB3C6D0006D1755 = {
+			isa = PBXGroup;
+			children = (
+				ED6DE8671FB3C6D0006D1755 /* Pain */,
+				ED6DE87C1FB3C6D0006D1755 /* PainTests */,
+				ED6DE8871FB3C6D0006D1755 /* PainUITests */,
+				ED6DE8661FB3C6D0006D1755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6DE8661FB3C6D0006D1755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6DE8651FB3C6D0006D1755 /* Pain.app */,
+				ED6DE8791FB3C6D0006D1755 /* PainTests.xctest */,
+				ED6DE8841FB3C6D0006D1755 /* PainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6DE8671FB3C6D0006D1755 /* Pain */ = {
+			isa = PBXGroup;
+			children = (
+				ED6DE8681FB3C6D0006D1755 /* AppDelegate.swift */,
+				ED6DE86A1FB3C6D0006D1755 /* ViewController.swift */,
+				ED6DE86C1FB3C6D0006D1755 /* Main.storyboard */,
+				ED6DE86F1FB3C6D0006D1755 /* Assets.xcassets */,
+				ED6DE8711FB3C6D0006D1755 /* LaunchScreen.storyboard */,
+				ED6DE8741FB3C6D0006D1755 /* Info.plist */,
+			);
+			path = Pain;
+			sourceTree = "<group>";
+		};
+		ED6DE87C1FB3C6D0006D1755 /* PainTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6DE87D1FB3C6D0006D1755 /* PainTests.swift */,
+				ED6DE87F1FB3C6D0006D1755 /* Info.plist */,
+			);
+			path = PainTests;
+			sourceTree = "<group>";
+		};
+		ED6DE8871FB3C6D0006D1755 /* PainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6DE8881FB3C6D0006D1755 /* PainUITests.swift */,
+				ED6DE88A1FB3C6D0006D1755 /* Info.plist */,
+			);
+			path = PainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6DE8641FB3C6D0006D1755 /* Pain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6DE88D1FB3C6D0006D1755 /* Build configuration list for PBXNativeTarget "Pain" */;
+			buildPhases = (
+				ED6DE8611FB3C6D0006D1755 /* Sources */,
+				ED6DE8621FB3C6D0006D1755 /* Frameworks */,
+				ED6DE8631FB3C6D0006D1755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pain;
+			productName = Pain;
+			productReference = ED6DE8651FB3C6D0006D1755 /* Pain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6DE8781FB3C6D0006D1755 /* PainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6DE8901FB3C6D0006D1755 /* Build configuration list for PBXNativeTarget "PainTests" */;
+			buildPhases = (
+				ED6DE8751FB3C6D0006D1755 /* Sources */,
+				ED6DE8761FB3C6D0006D1755 /* Frameworks */,
+				ED6DE8771FB3C6D0006D1755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6DE87B1FB3C6D0006D1755 /* PBXTargetDependency */,
+			);
+			name = PainTests;
+			productName = PainTests;
+			productReference = ED6DE8791FB3C6D0006D1755 /* PainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6DE8831FB3C6D0006D1755 /* PainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6DE8931FB3C6D0006D1755 /* Build configuration list for PBXNativeTarget "PainUITests" */;
+			buildPhases = (
+				ED6DE8801FB3C6D0006D1755 /* Sources */,
+				ED6DE8811FB3C6D0006D1755 /* Frameworks */,
+				ED6DE8821FB3C6D0006D1755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6DE8861FB3C6D0006D1755 /* PBXTargetDependency */,
+			);
+			name = PainUITests;
+			productName = PainUITests;
+			productReference = ED6DE8841FB3C6D0006D1755 /* PainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6DE85D1FB3C6D0006D1755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Kay Lab";
+				TargetAttributes = {
+					ED6DE8641FB3C6D0006D1755 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ED6DE8781FB3C6D0006D1755 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED6DE8641FB3C6D0006D1755;
+					};
+					ED6DE8831FB3C6D0006D1755 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED6DE8641FB3C6D0006D1755;
+					};
+				};
+			};
+			buildConfigurationList = ED6DE8601FB3C6D0006D1755 /* Build configuration list for PBXProject "Pain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6DE85C1FB3C6D0006D1755;
+			productRefGroup = ED6DE8661FB3C6D0006D1755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6DE8641FB3C6D0006D1755 /* Pain */,
+				ED6DE8781FB3C6D0006D1755 /* PainTests */,
+				ED6DE8831FB3C6D0006D1755 /* PainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6DE8631FB3C6D0006D1755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6DE8731FB3C6D0006D1755 /* LaunchScreen.storyboard in Resources */,
+				ED6DE8701FB3C6D0006D1755 /* Assets.xcassets in Resources */,
+				ED6DE86E1FB3C6D0006D1755 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6DE8771FB3C6D0006D1755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6DE8821FB3C6D0006D1755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6DE8611FB3C6D0006D1755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6DE86B1FB3C6D0006D1755 /* ViewController.swift in Sources */,
+				ED6DE8691FB3C6D0006D1755 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6DE8751FB3C6D0006D1755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6DE87E1FB3C6D0006D1755 /* PainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6DE8801FB3C6D0006D1755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6DE8891FB3C6D0006D1755 /* PainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6DE87B1FB3C6D0006D1755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6DE8641FB3C6D0006D1755 /* Pain */;
+			targetProxy = ED6DE87A1FB3C6D0006D1755 /* PBXContainerItemProxy */;
+		};
+		ED6DE8861FB3C6D0006D1755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6DE8641FB3C6D0006D1755 /* Pain */;
+			targetProxy = ED6DE8851FB3C6D0006D1755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED6DE86C1FB3C6D0006D1755 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6DE86D1FB3C6D0006D1755 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED6DE8711FB3C6D0006D1755 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6DE8721FB3C6D0006D1755 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6DE88B1FB3C6D0006D1755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6DE88C1FB3C6D0006D1755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6DE88E1FB3C6D0006D1755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.Pain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6DE88F1FB3C6D0006D1755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.Pain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED6DE8911FB3C6D0006D1755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.PainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pain.app/Pain";
+			};
+			name = Debug;
+		};
+		ED6DE8921FB3C6D0006D1755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.PainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pain.app/Pain";
+			};
+			name = Release;
+		};
+		ED6DE8941FB3C6D0006D1755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.PainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pain;
+			};
+			name = Debug;
+		};
+		ED6DE8951FB3C6D0006D1755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.PainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6DE8601FB3C6D0006D1755 /* Build configuration list for PBXProject "Pain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6DE88B1FB3C6D0006D1755 /* Debug */,
+				ED6DE88C1FB3C6D0006D1755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6DE88D1FB3C6D0006D1755 /* Build configuration list for PBXNativeTarget "Pain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6DE88E1FB3C6D0006D1755 /* Debug */,
+				ED6DE88F1FB3C6D0006D1755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6DE8901FB3C6D0006D1755 /* Build configuration list for PBXNativeTarget "PainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6DE8911FB3C6D0006D1755 /* Debug */,
+				ED6DE8921FB3C6D0006D1755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6DE8931FB3C6D0006D1755 /* Build configuration list for PBXNativeTarget "PainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6DE8941FB3C6D0006D1755 /* Debug */,
+				ED6DE8951FB3C6D0006D1755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6DE85D1FB3C6D0006D1755 /* Project object */;
+}
