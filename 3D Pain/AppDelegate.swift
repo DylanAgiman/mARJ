@@ -1,11 +1,11 @@
 //
 //  AppDelegate.swift
-//  Pain
+//  3D Pain
 //
-//  Created by Kay Lab on 11/8/17.
-//  Copyright © 2017 Kay Lab. All rights reserved.
+//  Created by Priyanka Saba on 11/6/17.
+//  Copyright © 2017 Priyanka Saba. All rights reserved.
 //
-// AR Med
+
 import UIKit
 
 @UIApplicationMain
