@@ -36,7 +36,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-jG-mh5">
-                                <rect key="frame" x="16" y="115" width="103" height="30"/>
+                                <rect key="frame" x="16" y="247" width="103" height="30"/>
                                 <color key="backgroundColor" red="0.33899650251470037" green="1" blue="0.79565572119782246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Submit">
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -61,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2182" y="-1052"/>
+            <point key="canvasLocation" x="-2183" y="-1457"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="Oo4-zP-2eU">
@@ -176,10 +176,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndd-oV-cV5">
-                                <rect key="frame" x="101.5" y="271.5" width="172" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndd-oV-cV5">
+                                <rect key="frame" x="102" y="272" width="172" height="102"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Doctor Sign In"/>
+                                <connections>
+                                    <segue destination="LX0-Qb-7f3" kind="presentation" id="69o-a7-9P8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLD-Ke-5OD">
                                 <rect key="frame" x="101" y="139.5" width="172" height="46"/>
@@ -191,7 +194,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Patient Sign In"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="WVc-2v-O1l"/>
+                                    <segue destination="KDl-fb-6xs" kind="presentation" id="ah7-6q-8Ih"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -248,6 +251,36 @@
             </objects>
             <point key="canvasLocation" x="-966" y="-1484"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="nwh-FK-qrZ">
+            <objects>
+                <viewController id="LX0-Qb-7f3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YU9-5l-pkO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QJe-yL-M54"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QHI-gC-rXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2183" y="-692"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ygp-6G-KQU">
+            <objects>
+                <viewController id="KDl-fb-6xs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rSg-KR-am8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Zzu-qi-dRn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qbd-az-4p3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2186" y="35"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="q90-l7-NBx">
             <objects>
@@ -264,7 +297,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hc2-rK-yUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2126" y="-323"/>
+            <point key="canvasLocation" x="-1543" y="-18"/>
         </scene>
     </scenes>
 </document>
