@@ -128,11 +128,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
+                            
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sPv-4q-tnx">
                                 <rect key="frame" x="16" y="96" width="343" height="30"/>
-=======
-<<<<<<< HEAD
+
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8FA-is-F4m">
                                 <rect key="frame" x="16" y="71" width="91" height="30"/>
                                 <subviews>
@@ -151,12 +150,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-jG-mh5">
                                 <rect key="frame" x="16" y="171" width="49" height="30"/>
-=======
+
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sPv-4q-tnx">
                                 <rect key="frame" x="16" y="70" width="343" height="30"/>
->>>>>>> 54618b4952e7e60186445c2d7fc163764ea09fa4
+
                                 <color key="backgroundColor" red="0.47022234102588134" green="1" blue="0.68274121219449235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="qqS-0p-Lyt"/>
@@ -244,7 +244,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-<<<<<<< HEAD
+
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="EHL-Cu-Lny">
                                 <rect key="frame" x="16" y="447" width="303" height="135"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -252,10 +252,10 @@
                                     <!--2017-11-14 00:04:45 +0000-->
                                 </date>
                             </datePicker>
-=======
+
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-jG-mh5">
                                 <rect key="frame" x="22" y="413" width="337" height="33"/>
->>>>>>> e33d38468e333574e77f946eb6e0a11c64e0b0e3
+
                                 <color key="backgroundColor" red="0.33899650251470037" green="1" blue="0.79565572119782246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Submit">
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -271,7 +271,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                             </textField>
->>>>>>> 54618b4952e7e60186445c2d7fc163764ea09fa4
+
+
                         </subviews>
                         <color key="backgroundColor" red="0.33899650250000002" green="1" blue="0.79565572120000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -291,7 +292,7 @@
                             <constraint firstItem="sPv-4q-tnx" firstAttribute="leading" secondItem="BWz-EE-1fn" secondAttribute="leading" id="psJ-sC-ljK"/>
                             <constraint firstItem="JK1-cM-aLA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wKD-jx-PxA"/>
                             <constraint firstItem="EUm-vP-pY0" firstAttribute="leading" secondItem="BWz-EE-1fn" secondAttribute="leading" id="xDD-ut-NKI"/>
-=======
+
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xfg-jG-mh5" secondAttribute="trailing" constant="310" id="EVb-cC-X58"/>
                             <constraint firstItem="aRb-ip-G2T" firstAttribute="leading" secondItem="8FA-is-F4m" secondAttribute="leading" id="MBS-xJ-9dp"/>
                             <constraint firstItem="xfg-jG-mh5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NKp-ue-jYT"/>
@@ -304,31 +305,30 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BWz-EE-1fn" secondAttribute="trailing" constant="210" id="ws5-uM-tBL"/>
                             <constraint firstItem="aRb-ip-G2T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xNW-Qu-pt7"/>
                             <constraint firstItem="aRb-ip-G2T" firstAttribute="leading" secondItem="xfg-jG-mh5" secondAttribute="leading" id="z5t-9M-fTO"/>
->>>>>>> 54618b4952e7e60186445c2d7fc163764ea09fa4
+
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-<<<<<<< HEAD
+
                         <outlet property="monthDropDown" destination="BOH-Gj-9RZ" id="Zt8-lO-E0Z"/>
                         <outlet property="textBox" destination="EUm-vP-pY0" id="erh-HX-2g6"/>
-=======
+
                         <outlet property="firstName" destination="sPv-4q-tnx" id="PPu-Nl-pwG"/>
                         <outlet property="lastName" destination="aRb-ip-G2T" id="N79-jt-pOB"/>
->>>>>>> 54618b4952e7e60186445c2d7fc163764ea09fa4
+
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
 <<<<<<< HEAD
             <point key="canvasLocation" x="-3351" y="-2382"/>
-=======
+
 <<<<<<< HEAD
             <point key="canvasLocation" x="-2183.1999999999998" y="-1052.0239880059971"/>
-=======
+
             <point key="canvasLocation" x="-2756" y="-1509"/>
->>>>>>> e33d38468e333574e77f946eb6e0a11c64e0b0e3
->>>>>>> 54618b4952e7e60186445c2d7fc163764ea09fa4
+
         </scene>
         <!--Item 2-->
         <scene sceneID="Oo4-zP-2eU">
