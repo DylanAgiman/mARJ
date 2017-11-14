@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,49 +18,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Body Part" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sPv-4q-tnx">
-                                <rect key="frame" x="16" y="70" width="343" height="30"/>
-                                <color key="backgroundColor" red="0.47022234102588134" green="1" blue="0.68274121219449235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="qqS-0p-Lyt"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWz-EE-1fn">
-                                <rect key="frame" x="16" y="30" width="103" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8FA-is-F4m">
+                                <rect key="frame" x="16" y="71" width="91" height="30"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sPv-4q-tnx">
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="30"/>
+                                        <color key="backgroundColor" red="0.47022234102588134" green="1" blue="0.68274121219449235" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWz-EE-1fn">
+                                <rect key="frame" x="16" y="30" width="149" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-jG-mh5">
-                                <rect key="frame" x="16" y="115" width="103" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-jG-mh5">
+                                <rect key="frame" x="16" y="171" width="49" height="30"/>
                                 <color key="backgroundColor" red="0.33899650251470037" green="1" blue="0.79565572119782246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Submit">
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ww5-g5-s8e" kind="show" id="dm4-yq-GQQ"/>
+                                    <action selector="getInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1cm-Vl-0Mi"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aRb-ip-G2T">
+                                <rect key="frame" x="16" y="117" width="91" height="30"/>
+                                <color key="backgroundColor" red="0.47022234099999999" green="1" blue="0.68274121219999995" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.33899650250000002" green="1" blue="0.79565572120000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sPv-4q-tnx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0oL-Aj-IOr"/>
-                            <constraint firstItem="sPv-4q-tnx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2S0-AP-Y5V"/>
-                            <constraint firstItem="sPv-4q-tnx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="70" id="IZq-rF-QEt"/>
-                            <constraint firstItem="sPv-4q-tnx" firstAttribute="top" secondItem="BWz-EE-1fn" secondAttribute="bottom" constant="19" id="KDS-QV-dED"/>
-                            <constraint firstItem="xfg-jG-mh5" firstAttribute="top" secondItem="sPv-4q-tnx" secondAttribute="bottom" constant="15" id="UPg-b3-1Aw"/>
-                            <constraint firstItem="sPv-4q-tnx" firstAttribute="leading" secondItem="xfg-jG-mh5" secondAttribute="leading" id="hYK-lR-Cn3"/>
-                            <constraint firstItem="sPv-4q-tnx" firstAttribute="leading" secondItem="BWz-EE-1fn" secondAttribute="leading" id="psJ-sC-ljK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xfg-jG-mh5" secondAttribute="trailing" constant="310" id="EVb-cC-X58"/>
+                            <constraint firstItem="aRb-ip-G2T" firstAttribute="leading" secondItem="8FA-is-F4m" secondAttribute="leading" id="MBS-xJ-9dp"/>
+                            <constraint firstItem="xfg-jG-mh5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NKp-ue-jYT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aRb-ip-G2T" secondAttribute="trailing" constant="268" id="PY1-U7-3Bf"/>
+                            <constraint firstItem="aRb-ip-G2T" firstAttribute="top" secondItem="8FA-is-F4m" secondAttribute="bottom" constant="16" id="Vg8-Nk-zqv"/>
+                            <constraint firstItem="BWz-EE-1fn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="bCy-2f-ZaX"/>
+                            <constraint firstItem="aRb-ip-G2T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="117" id="iJF-br-r2C"/>
+                            <constraint firstItem="aRb-ip-G2T" firstAttribute="leading" secondItem="BWz-EE-1fn" secondAttribute="leading" id="o4x-KO-2MZ"/>
+                            <constraint firstItem="xfg-jG-mh5" firstAttribute="top" secondItem="aRb-ip-G2T" secondAttribute="bottom" constant="24" id="vGX-uT-WDD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BWz-EE-1fn" secondAttribute="trailing" constant="210" id="ws5-uM-tBL"/>
+                            <constraint firstItem="aRb-ip-G2T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xNW-Qu-pt7"/>
+                            <constraint firstItem="aRb-ip-G2T" firstAttribute="leading" secondItem="xfg-jG-mh5" secondAttribute="leading" id="z5t-9M-fTO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="firstName" destination="sPv-4q-tnx" id="PPu-Nl-pwG"/>
+                        <outlet property="lastName" destination="aRb-ip-G2T" id="N79-jt-pOB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2182" y="-1052"/>
+            <point key="canvasLocation" x="-2183.1999999999998" y="-1052.0239880059971"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="Oo4-zP-2eU">
@@ -184,15 +201,15 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLD-Ke-5OD">
                                 <rect key="frame" x="101" y="139.5" width="172" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="New User "/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="eqm-c1-GfE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9Z-St-K5t">
                                 <rect key="frame" x="101.5" y="205.5" width="172" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Patient Sign In"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="WVc-2v-O1l"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

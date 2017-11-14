@@ -14,11 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-//not needed for first lesson
- //   override func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
- //   }
+    
+    @IBOutlet weak var firstName: UITextField!
+    @IBOutlet weak var lastName: UITextField!
+    @IBAction func getInfo(_ sender: UIButton) {
+        print(firstName.text!);
+    }
+    
 
 
 }
