@@ -23,6 +23,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+<<<<<<< HEAD
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -70,4 +71,14 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
         
     }
+=======
+    @IBOutlet weak var firstName: UITextField!
+    @IBOutlet weak var lastName: UITextField!
+    @IBAction func getInfo(_ sender: UIButton) {
+        print(firstName.text!);
+    }
+    
+
+
+>>>>>>> 54618b4952e7e60186445c2d7fc163764ea09fa4
 }
