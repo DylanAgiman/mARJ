@@ -19,7 +19,14 @@ class ViewController: UIViewController {
 //        super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
  //   }
-
-
+    @IBOutlet weak var firstName: UITextField!
+    @IBOutlet weak var lastName: UITextField!
+    @IBOutlet weak var height: UITextField!
+    @IBOutlet weak var weight: UITextField!
+    
+    @IBAction func sendData(_ sender: UIButton) {
+        print(firstName.text = "confirmed")
+    }
+    
 }
 

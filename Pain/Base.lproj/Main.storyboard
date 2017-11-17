@@ -58,7 +58,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ww5-g5-s8e" kind="show" id="dm4-yq-GQQ"/>
+                                    <action selector="sendData:" destination="BYZ-38-t0r" eventType="touchDown" id="YUB-E1-6sN"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight (kg)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cm6-dH-bal">
@@ -116,6 +116,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="firstName" destination="sPv-4q-tnx" id="1w8-sO-b7h"/>
+                        <outlet property="height" destination="Bwe-SW-yz6" id="gsd-O7-V07"/>
+                        <outlet property="lastName" destination="dlq-Kf-1DM" id="TbL-WW-3zC"/>
+                        <outlet property="weight" destination="Cm6-dH-bal" id="TSg-3P-T9x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -227,7 +233,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLD-Ke-5OD">
-                                <rect key="frame" x="96" y="139.5" width="182" height="46"/>
+                                <rect key="frame" x="96.5" y="139.5" width="182" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Patient Sign up"/>
                                 <connections>
@@ -342,7 +348,6 @@
         <!--Table View Controller-->
         <scene sceneID="anM-GW-bRa">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zqb-WR-nRt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="Gas-mZ-mwG" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dic-Nr-smo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -369,11 +374,12 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqb-WR-nRt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1230" y="-797"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="AWB-PH-3E6"/>
+        <segue reference="QwT-kW-F9Y"/>
     </inferredMetricsTieBreakers>
 </document>

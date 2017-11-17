@@ -14,6 +14,8 @@
 		ED6DE8731FB3C6D0006D1755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6DE8711FB3C6D0006D1755 /* LaunchScreen.storyboard */; };
 		ED6DE87E1FB3C6D0006D1755 /* PainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE87D1FB3C6D0006D1755 /* PainTests.swift */; };
 		ED6DE8891FB3C6D0006D1755 /* PainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE8881FB3C6D0006D1755 /* PainUITests.swift */; };
+		ED8D14BC1FBE6E9F0076AA49 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8D14BB1FBE6E9F0076AA49 /* Person.swift */; };
+		ED8D14BE1FBE74E90076AA49 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8D14BD1FBE74E90076AA49 /* Patient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		ED6DE8841FB3C6D0006D1755 /* PainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6DE8881FB3C6D0006D1755 /* PainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainUITests.swift; sourceTree = "<group>"; };
 		ED6DE88A1FB3C6D0006D1755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8D14BB1FBE6E9F0076AA49 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person.swift; path = Pain/Person.swift; sourceTree = "<group>"; };
+		ED8D14BD1FBE74E90076AA49 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		ED6DE85C1FB3C6D0006D1755 = {
 			isa = PBXGroup;
 			children = (
+				ED8D14BB1FBE6E9F0076AA49 /* Person.swift */,
+				ED8D14BD1FBE74E90076AA49 /* Patient.swift */,
 				ED6DE8671FB3C6D0006D1755 /* Pain */,
 				ED6DE87C1FB3C6D0006D1755 /* PainTests */,
 				ED6DE8871FB3C6D0006D1755 /* PainUITests */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8D14BC1FBE6E9F0076AA49 /* Person.swift in Sources */,
+				ED8D14BE1FBE74E90076AA49 /* Patient.swift in Sources */,
 				ED6DE86B1FB3C6D0006D1755 /* ViewController.swift in Sources */,
 				ED6DE8691FB3C6D0006D1755 /* AppDelegate.swift in Sources */,
 			);
