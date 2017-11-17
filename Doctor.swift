@@ -32,7 +32,15 @@ class Doctor {
         return false
     }
     
+    func addPatient(newPatient:Patient) {
+        patients.append(newPatient)
+    }
+    
     func returnPatientList()->[Patient]{
         return patients
+    }
+    
+    func getCode() -> String {
+        return self.doctorCode
     }
 }

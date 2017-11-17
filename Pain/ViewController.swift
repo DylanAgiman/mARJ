@@ -2,11 +2,13 @@
 //  ViewController.swift
 //  Pain
 //
-//  Created by Kay Lab on 11/8/17.
-//  Copyright © 2017 Kay Lab. All rights reserved.
+//  Created by Dylan Agiman on 11/8/17.
+//  Copyright © 2017 Dylan Agiman. All rights reserved.
 //
 //Users/wesleylum/Desktop/mARJ/Pain/Base.lproj/Main.storyboard//file defines a subclass of /UI viewer
 import UIKit
+
+var demoDoctor = Doctor(first:"Joe", last:"Bob", code:"1234", username:"joedemo", password:"password")
 
 class ViewController: UIViewController {
 
@@ -14,19 +16,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-//not needed for first lesson
- //   override func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
- //   }
+
+//Patient Submitting
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
-    @IBOutlet weak var height: UITextField!
-    @IBOutlet weak var weight: UITextField!
     
+    @IBOutlet weak var doctorCode: UITextField!
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
     @IBAction func sendData(_ sender: UIButton) {
-        print(firstName.text = "confirmed")
+        demoDoctor.addPatient(newPatient : Patient(first:firstName.text!, last: lastName.text!, code: doctorCode.text!, username: username.text!, password: password.text!))
     }
+    
+//Doctor submitting
+
     
 }
 
