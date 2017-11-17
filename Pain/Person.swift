@@ -12,7 +12,7 @@ class Person {
     var firstName: String
     var lastName: String
 
-    init(newFirst: String, newLast: String, newHeight: String, newWeight: String) {
+    init(newFirst: String, newLast: String) {
         self.firstName = newFirst
         self.lastName = newLast
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995152C51FBE784900D61E7C /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995152C41FBE784900D61E7C /* Doctor.swift */; };
 		ED6DE8691FB3C6D0006D1755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE8681FB3C6D0006D1755 /* AppDelegate.swift */; };
 		ED6DE86B1FB3C6D0006D1755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6DE86A1FB3C6D0006D1755 /* ViewController.swift */; };
 		ED6DE86E1FB3C6D0006D1755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6DE86C1FB3C6D0006D1755 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		995152C41FBE784900D61E7C /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		ED6DE8651FB3C6D0006D1755 /* Pain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6DE8681FB3C6D0006D1755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED6DE86A1FB3C6D0006D1755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				ED8D14BB1FBE6E9F0076AA49 /* Person.swift */,
 				ED8D14BD1FBE74E90076AA49 /* Patient.swift */,
+				995152C41FBE784900D61E7C /* Doctor.swift */,
 				ED6DE8671FB3C6D0006D1755 /* Pain */,
 				ED6DE87C1FB3C6D0006D1755 /* PainTests */,
 				ED6DE8871FB3C6D0006D1755 /* PainUITests */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8D14BC1FBE6E9F0076AA49 /* Person.swift in Sources */,
+				995152C51FBE784900D61E7C /* Doctor.swift in Sources */,
 				ED8D14BE1FBE74E90076AA49 /* Patient.swift in Sources */,
 				ED6DE86B1FB3C6D0006D1755 /* ViewController.swift in Sources */,
 				ED6DE8691FB3C6D0006D1755 /* AppDelegate.swift in Sources */,
