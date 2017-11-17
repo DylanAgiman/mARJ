@@ -127,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2756" y="-1509.8950524737631"/>
+            <point key="canvasLocation" x="-2756" y="-1693"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="HR5-Uu-8rR">
@@ -145,13 +145,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aD2-gH-pTS">
-                                <rect key="frame" x="130" y="522" width="46" height="30"/>
+                                <rect key="frame" x="30" y="510" width="329" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Go"/>
                                 <connections>
                                     <segue destination="Ww5-g5-s8e" kind="show" id="KD0-pe-ujt"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bca-q6-H7k">
+                                <rect key="frame" x="16" y="78" width="343" height="424"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XZv-Uc-tEN"/>
@@ -160,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vCh-pU-kao" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1951" y="-1510"/>
+            <point key="canvasLocation" x="-1972" y="-1693.4032983508248"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RtV-d7-Ib5">
@@ -198,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mpv-4X-o7U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1143.2" y="-1511.6941529235382"/>
+            <point key="canvasLocation" x="-1017" y="-1335"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xjG-u3-DPz">
@@ -211,7 +219,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTC-d8-yFU">
                                 <rect key="frame" x="16" y="328" width="343" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Log Out"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Sign Out"/>
                                 <connections>
                                     <segue destination="ZyB-4u-e6f" kind="show" id="Epm-tf-7Fx"/>
                                 </connections>
@@ -219,7 +228,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank you, The Doctor will be with you shortly" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ug-9e-a94">
                                 <rect key="frame" x="16" y="79" width="343" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -238,7 +247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezr-sy-LMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-439.19999999999999" y="-1512.5937031484259"/>
+            <point key="canvasLocation" x="-202" y="-1335"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="JX4-JA-iBf">
@@ -297,7 +306,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9Q-hC-LWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3702" y="-1124"/>
+            <point key="canvasLocation" x="-4084" y="-834"/>
         </scene>
         <!--Patient Sign In-->
         <scene sceneID="7N5-Q1-Fnx">
@@ -334,16 +343,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pM0-y3-v3j">
-                                <rect key="frame" x="31" y="20" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fo8-mG-7zM">
                                 <rect key="frame" x="16" y="251" width="49" height="30"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="sendData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSN-cg-hEr"/>
+                                    <segue destination="3LR-rC-toi" kind="show" id="a8F-qz-FlB"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pM0-y3-v3j">
+                                <rect key="frame" x="16" y="20" width="66" height="42"/>
+                                <state key="normal" title="Back"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -373,6 +383,101 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izY-EQ-hFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2756" y="-834.33283358320841"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Llv-ZP-qT4">
+            <objects>
+                <viewController id="3LR-rC-toi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sne-NO-mMT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8c-nb-Umx">
+                                <rect key="frame" x="16" y="148" width="343" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Create New Diagram"/>
+                                <connections>
+                                    <segue destination="Ww5-g5-s8e" kind="show" id="WvF-TF-QfC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ued-Wr-WuL">
+                                <rect key="frame" x="16" y="75" width="343" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFK-U8-oYh">
+                                <rect key="frame" x="16" y="366" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Sign Out"/>
+                                <connections>
+                                    <segue destination="ZyB-4u-e6f" kind="show" id="mWf-DA-tKg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYL-Zl-3rO">
+                                <rect key="frame" x="16" y="250" width="343" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="View Previous Diagrams"/>
+                                <connections>
+                                    <segue destination="oG8-sA-Dhl" kind="show" id="hvb-fP-MaK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lwH-uC-Lg2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7J-h8-ZHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1940" y="-834.33283358320841"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LcF-YA-mfs">
+            <objects>
+                <viewController id="oG8-sA-Dhl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3LG-S1-Lr6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dni-sd-K4k">
+                                <rect key="frame" x="16" y="94" width="343" height="306"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10/5/17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9Z-gB-j9L">
+                                <rect key="frame" x="16" y="33" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybg-dV-kN2">
+                                <rect key="frame" x="16" y="549" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="3LR-rC-toi" kind="show" id="RgE-cO-2Ds"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="I was playing basket ball and during a play my back got injured" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G5P-KE-YZ2">
+                                <rect key="frame" x="16" y="420" width="343" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vzq-k7-TAt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKn-jJ-izN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1012" y="-651.72413793103453"/>
         </scene>
         <!--Doctor Login-->
         <scene sceneID="V9a-jH-ZlY">
@@ -440,7 +545,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P2W-GR-1SJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2756" y="-151.57421289355324"/>
+            <point key="canvasLocation" x="-2756" y="55"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LxM-Wh-PS0">
@@ -480,7 +585,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FD2-6o-hyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1972" y="-151.57421289355324"/>
+            <point key="canvasLocation" x="-1972" y="54"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UZh-lx-LAK">
@@ -516,16 +621,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NYY-L0-ZaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1255.2" y="-154.27286356821591"/>
+            <point key="canvasLocation" x="-1095" y="54"/>
         </scene>
     </scenes>
     <resources>
         <image name="image_uploaded_from_ios_720" width="405" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="hvb-fP-MaK"/>
         <segue reference="Mdm-qC-YgK"/>
-        <segue reference="QwT-kW-F9Y"/>
+        <segue reference="RgE-cO-2Ds"/>
+        <segue reference="AWB-PH-3E6"/>
         <segue reference="Epm-tf-7Fx"/>
-        <segue reference="gY7-GA-wDR"/>
+        <segue reference="KD0-pe-ujt"/>
     </inferredMetricsTieBreakers>
 </document>
