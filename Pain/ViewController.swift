@@ -24,6 +24,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var doctorCode: UITextField!
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
+    @IBAction func create_account(_ sender: UIButton) {
+        demoDoctor.addPatient(newPatient : Patient(first:firstName.text!, last: lastName.text!, code: doctorCode.text!, username: username.text!, password: password.text!))
+    }
+    // I removed the submit so idk if this is still connected
+   
     @IBAction func sendData(_ sender: UIButton) {
         demoDoctor.addPatient(newPatient : Patient(first:firstName.text!, last: lastName.text!, code: doctorCode.text!, username: username.text!, password: password.text!))
     }
